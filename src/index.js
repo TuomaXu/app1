@@ -10,12 +10,8 @@ const app = dva();
 // app.use({});
 
 // 3. Model
-// app.model(require('./models/example').default);
-app.model(require('./models/user').default);
-app.model(require('./models/teacher').default);
-app.model(require('./models/student').default);
-app.model(require('./models/course').default);
-app.model(require('./models/comment').default);
+app.model(require('./models/account').default);
+
 
 
 // 4. Router

@@ -1,20 +1,10 @@
-const baseURL = 'http://localhost:5001';
+const baseURL = 'http://localhost:5001/api/';
 
-const addTeacherURL = baseURL + '/admin/addTeacher';
-const teacherListURL = baseURL + '/admin/teachers';
-
-const addStudentURL = baseURL + '/admin/addStudent';
-const studentListURL = baseURL + '/admin/students';
-
-const courseListURL = baseURL + '/admin/courses';
-const commentListURL = baseURL + '/admin/comments';
+const loginURL = baseURL + 'login';
+const registerURL = baseURL + 'register';
 
 
 export{
-    addTeacherURL,
-    teacherListURL,
-    addStudentURL,
-    studentListURL,
-    courseListURL,
-    commentListURL,
+    loginURL,
+    registerURL
 }
